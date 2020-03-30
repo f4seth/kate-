@@ -84,35 +84,3 @@ public class program_06e {
 }
 
 
-
-
-//if(user_input1 == 1 && cnt == 0)
-//{
-//	bitstring += user_input1;		
-//	cnt++;
-//	base10 += 1;
-//	
-//				
-//} else if(user_input1 == 1)
-//{		
-//	 
-//	bitstring += user_input1;
-//	cnt++;
-//	base10 += cnt * 2;
-//										
-//} 
-//
-
-//else if(user_input1 == 0)
-//{			
-//	
-//	bitstring += user_input1;
-//	cnt++;
-//
-//}
-//cnt = bitstring.length() - 1;
-
-
-
-
-
