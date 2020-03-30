@@ -7,18 +7,16 @@ public class program_06e {
 	Scanner stdIn = new Scanner(System.in);
 		
 	String bitstring = "";
-	int base10 = 0;
-	
+	int base10 = 0;	
 	int user_input1;
 	int cnt = 0;
-
 	int ult_tally = 1;
 	int fin_tally = 0;
 	int exponent = -1;
 	int first_exponent = 0;
 		
-	
-	
+		
+// user validation
 		do
 		{
 			System.out.println("------------------------");
@@ -31,7 +29,9 @@ public class program_06e {
 			user_input1 = stdIn.nextInt();
 				
 			exponent++;			
-		
+
+			
+//if else statements that sort base10			
 			if(exponent == 0)
 			{		
 				bitstring += user_input1;
@@ -63,7 +63,7 @@ public class program_06e {
 			
 			System.out.println("Your current string binary code has concatenated to this : \n");
 			System.out.println(bitstring);		
-			
+//print out final and ultimate tallies			
 			System.out.println("here is the ultimate tally:" + ult_tally);
 			System.out.println("here is the final tally:" + fin_tally);
 			
